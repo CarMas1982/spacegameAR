@@ -59,7 +59,7 @@ class ViewController: UIViewController, ARSKViewDelegate {
         let labelNode = SKLabelNode(text: "👾")
         labelNode.horizontalAlignmentMode = .center
         labelNode.verticalAlignmentMode = .center
-        return labelNode;
+        return labelNode
     }
     
     func session(_ session: ARSession, didFailWithError error: Error) {
