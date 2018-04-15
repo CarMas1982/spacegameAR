@@ -31,14 +31,14 @@ class Scene: SKScene, SKPhysicsContactDelegate {
         
         // 2
         player = SKSpriteNode(imageNamed: "player")
-        player.position = CGPoint(x: 100, y: 384)
+        player.position = CGPoint(x: 90, y: 160)
         player.physicsBody = SKPhysicsBody(texture: player.texture!, size: player.size)
         player.physicsBody?.contactTestBitMask = 1
         addChild(player)
         
         // 3
         scoreLabel = SKLabelNode(fontNamed: "Chalkduster")
-        scoreLabel.position = CGPoint(x: 100, y: 100)
+        scoreLabel.position = CGPoint(x: 10, y: 320)
         scoreLabel.horizontalAlignmentMode = .left
         addChild(scoreLabel)
         
